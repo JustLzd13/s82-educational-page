@@ -69,7 +69,7 @@
 <section id="categories" class="container my-5">
     <h2 class="text-center mb-4">Explore Categories</h2>
     
-    <div class="row" id="category-section">
+    <div class="row" id="categories-section">
         <!-- Categories will be inserted here via JavaScript -->
     </div>
 
@@ -266,7 +266,7 @@
     //categories 
     // Dynamically display categories
         document.addEventListener("DOMContentLoaded", function () {
-            const categoryContainer = document.getElementById("category-section");
+            const categoryContainer = document.getElementById("categories-section");
             categoryContainer.innerHTML = ""; // Clear existing content
 
             categories.forEach((category, index) => {
